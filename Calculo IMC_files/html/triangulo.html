@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/equilátero.png">
+    <link rel="icon" type="image/png" href="img/escaleno.png">
+    <link rel="icon" type="image/png" href="img/isosceles.png">
+ 
+  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Classificar Triângulo</h1>
+        <input type="number" id="lado1" placeholder="Lado 1" min="1">
+        <input type="number" id="lado2" placeholder="Lado 2" min="1">
+        <input type="number" id="lado3" placeholder="Lado 3" min="1">
+        <button onclick="classificarTriangulo()">Classificar</button>
+        <p id="resultado"></p>
+        <img id="img" src="img/equilatero.png" alt="equilátero" style="display: none;">
+        <img id="img" src="img/escaleno.png" alt="escaleno" style="display: none;">
+        <img id="img" src="img/isosceles.png" alt="isosceles" style="display: none;">
+    </div>
+</body>
+<script src="triangulo.js"></script>
+</html>
